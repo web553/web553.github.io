@@ -10,6 +10,10 @@
     
     
 }
+#img {
+  width: 100%;
+  height: auto;
+}
 .logo{
     width: 100px;
     position: absolute;
@@ -91,15 +95,16 @@
     
 }
 
-
-    @media only screen and (min-width:600px){
-    #banner,body{
+ @media only screen and (max-width:600px){
+    #body{
         font-size: 44px;
    }
    .banner-btn a{
        display: block;
        margin: 20px auto;
    }
+   
+  
 
    
 }
