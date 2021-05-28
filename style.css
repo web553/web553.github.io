@@ -102,13 +102,13 @@
     background: linear-gradient(rgba(0,0,0,0.5),#009688), url(wallpaper.jpg);
     background-size:cover;
     background-position:center;
-    height: 10vh;
+    height: 100vh;
     
     
 }
 
 .logo{
-    width: 10px;
+    width: 60px;
     position: absolute;
     top: 1%;
     left: 1%;
@@ -116,37 +116,37 @@
 .banner-text{
     text-align: center;
     color: white;
-    padding-top: 30x;
+    padding-top: 200x;
     font-style:initial;
    
     
 }
 .banner-text h1{
-     font-size: 10px;
+     font-size: 80px;
 }
 .banner-text p{
-    font-size: 2px;
+    font-size: 8px;
     font-style: italic;
     
 }
 .banner-btn{
-    margin: 5px auto 0;
+    margin: 40px auto 0;
 }
 .banner-btn a{
-    width: 15px;
+    width: 80px;
     text-decoration: none;
     display: inline-block;
-    margin: 0 1px;
-    padding: 2px 0;
+    margin: 0 4px;
+    padding: 4px 0;
     color: white;
-    border: .1px solid white;
+    border: .3px solid white;
     position: relative;
     z-index: 1;
     transition: color 0.5s;
 }
 .banner-btn a span{
     width: 0;
-    height: 10%;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -156,7 +156,7 @@
 }
 
 .banner-btn a:hover span{
-    width: 10%;
+    width: 100%;
 }
 
 .banner-btn a:hover {
@@ -165,26 +165,26 @@
 
 
 .card{
-    width:60px;
-    margin-top:20px ;
-    margin-left: 10px;
-    height: 30px;
-    padding-top: 2px;
+    width:300px;
+    margin-top:100px ;
+    margin-left: 50px;
+    height: 150px;
+    padding-top: 10px;
     color: #009688;
-    padding-bottom: 2px;
+    padding-bottom: 10px;
 }
 #text{
     width:auto;
-    font-size:5px;
+    font-size:25px;
     font-family:initial;
 
 }
 #card-body{
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 #kn{
-    font-size: 2px;
+    font-size: 10px;
     
 }
 
