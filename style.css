@@ -10,15 +10,13 @@
     
     
 }
-#img {
-  width: 100%;
-  height: auto;
-}
+
 .logo{
-    width: 100px;
+    width: 100%;
     position: absolute;
     top: 4%;
     left: 4%;
+    height:auto
 }
 .banner-text{
     text-align: center;
