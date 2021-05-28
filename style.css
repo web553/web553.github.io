@@ -12,11 +12,11 @@
 }
 
 .logo{
-    width: auto;
+    width: 100px;
     position: absolute;
     top: 4%;
     left: 4%;
-    height:auto;
+    
 }
 .banner-text{
     text-align: center;
