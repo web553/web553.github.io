@@ -482,6 +482,16 @@ nav ul li{
       width:400px;
   }
   }
+@media (max-width: 768px) {
+   
+    #content {
+      width: 100%;
+      margin: 0;
+    }
+    #content.active {
+      margin-left: 17rem;
+      width: calc(100% - 17rem);
+    }
 
 
 
