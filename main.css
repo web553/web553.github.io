@@ -320,15 +320,7 @@ header {
 
 
 
-@media screen (max-width:770px){
-    .banner-text h1{
-        font-size: 44px;
-   }
-   .banner-btn a{
-       display: block;
-       margin: 20px auto;
-   }
-}
+
 
 /*-------------------------blogs-----------------------------------------------------------*/
 .card-deck{
