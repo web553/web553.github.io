@@ -8,9 +8,7 @@
                 font-family: 'Times New Roman', Times, serif;
                 font-weight: bold;
             }
-            @media screen and (min-width: 50em){
-html { font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) ); }
-}
+            
             
             @media screen and (min-width:1200px ){
                 .card-deck1{
@@ -23,7 +21,14 @@ html { font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) ); }
             @media screen and (max-width:600px){
                 .card-deck{
                     display:none;
+                    
                 }
+                .big::first-letter{
+                font-size: 50%;
+                color: red;
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: bold;
+            }
                 .avatar1{
                     width:140px;
                     height:100px;
